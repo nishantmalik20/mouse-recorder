@@ -65,7 +65,7 @@ function record (i) {
 			$cursor.style.setProperty('--y', mouseMoves[i].yValue) 
 			i++;
 			record (i);    // Call recursively
-		}, 100);
+		}, 500);
 	} else {
 		mouseMoves = [];
 	}
