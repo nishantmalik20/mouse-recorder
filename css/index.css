@@ -4,7 +4,11 @@
 	border-radius: 50%;
 	background-color: black;
 
+	--x: 0;
+	--y: 0;
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: calc(var(--y) * 1px);
+	left: calc(var(--x) * 1px);
+
+	transition: all 10ms;
 }
